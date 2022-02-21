@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>THE CODE REVIEW</title>
+</head>
+<body>
+    <header>
+        <H1>THE CODE REVIEW</H1>
+    </header>
+    <h2>Signup for our newsletter</h2>
+    <p class="text">Get the latest news on how your code is doing right in your inbox</p>
+    <div class="desktop-view">
+        <form>
+            <hr class="line-1">
+            <hr class="line-2">
+          <fieldset class="fieldset">
+            <legend class="legend">Contact information</legend>
+              <div class="wrapper">
+                <label for="full_name" class="titles">Full Name</label>
+                <input type="text" name="full_name" id="full_name" placeholder="required" required class="text-box">
+              </div>
+              <div class="wrapper">
+                <label for="email_address" class="titles">Email Address</label>
+                <input type="email" name="email_address" id="email_address" placeholder="required" required class="text-box box1"><br class="br">
+              </div>
+              <div class="wrapper">    
+                <label for="phone_number" class="titles">Phone Number</label><br class="br">
+                <input type="text" name="phone_number" id="phone_number" class="text-box box2"><br class="br">
+              </div>
+              <div class="wrapper">
+                <label for="city" class="titles">City</label><br class="br">
+                <input type="text" name="city" id="city" class="text-box box3"><br class="br">
+              </div>
+              <div class="wrapper">
+                <label for="state" class="titles">State</label><br class="br">
+                <select name="state" id="state" class="text-box box3">
+                    <option value="choose-state">Choose State</option>
+                    <option value="alabama" id="alabama">Alabama</option>
+                    <option value="alaska" id="alaska">Alaska</option>
+                    <option value="arizona" id="arizona">Arizona</option>
+                    <option value="arkansas" id="arkansas">Arkansas</option>
+                    <option value="california" id="caifornia">California</option>
+                    <option value="colorado" id="colorado">Colorado</option>
+                    <option value="conneticut" id="conneticut">Conneticut</option>
+                    <option value="deleware" id="deleware">Delaware</option>
+                    <option value="florida" id="florida">Florida</option>
+                    <option value="georgia" id="georgia">Georgia</option>
+                    <option value="hawaii" id="hawaii">Hawaii</option>
+                    <option value="illinois" id="illinois">Illinois</option>
+                    <option value="indiana" id="indiana">Indiana</option>
+                    <option value="iowa" id="iowa">Iowa</option>
+                    <option value="kansas" id="kansas">Kansas</option>
+                    <option value="kentucky" id="kentucky">Kentucky</option>
+                    <option value="louisiana" id="louisiana">Louisiana</option>
+                    <option value="maine" id="maine">Maine</option>
+                    <option value="maryland" id="maryland">Maryland</option>
+                    <option value="massachusetts" id="massachusetts">Massachusetts</option>
+                    <option value="michigan" id="michigan">Michigan</option>
+                    <option value="minnesota" id="minnesota">Minnesota</option>
+                    <option value="mississippi" id="mississippi">Mississippi</option>
+                    <option value="missouri" id="missouri">Missouri</option>
+                    <option value="montana" id="montana">Montana</option>
+                    <option value="nebraska" id="nebraska">Nebraska</option>
+                    <option value="nevada" id="nevada">Nevada</option>
+                    <option value="new_hampshire" id="new_hampshire">New Hampshire</option>
+                    <option value="new_jersey" id="new_jersey">New Jersey</option>
+                    <option value="new_mexico" id="new_mexico">New Mexico</option>
+                    <option value="new_york" id="new_york">New York</option>
+                    <option value="north_carolina" id="north_carolina">North Carolina</option>
+                    <option value="north_dakota" id="north_dakota">North Dakota</option>
+                    <option value="ohio" id="ohio">Ohio</option>
+                    <option value="oklahoma" id="oklahoma">Oklahoma</option>
+                    <option value="oregon" id="oregon">Oregon</option>
+                    <option value="pennsylvania" id="pennsylvania">Pennnsylvania</option>
+                    <option value="rhode_island" id="rhode_island">Rhode Island</option>
+                    <option value="south_carolina" id="south_carolina">South Carolina</option>
+                    <option value="sotuh_dakota" id="south_dakota">South Dakota</option>
+                    <option value="tennessee" id="tenneseee">Tennessee</option>
+                    <option value="texas" id="texas">Texas</option>
+                    <option value="utah" id="utah">Utah</option>
+                    <option value="vermont" id="vermont">Vermont</option>
+                    <option value="virginia" id="virginia">Virginia</option>
+                    <option value="washington" id="washington">Washington</option>
+                    <option value="west_virginia" id="west_virginia">West Virgina</option>
+                    <option value="wisonsin" id="wisconsin">Wisconsin</option>
+                    <option value="wyoming" id="wyoming">Wyoming</option>
+                </select><br>
+              </div>
+              <div class="wrapper3">
+                <label for="zip_code" class="titles">Zip Code</label><br class="br">
+                <input type="text" name="zip_code" id="zip_code" class="zip-textbox">
+              </div>
+          </fieldset>
+          <hr class="line-2">
+          <fieldset class="fieldset">
+            <legend class="legend">Newsletter</legend>
+            <label>Select the newsletters you would like to receive</label><br class="br">
+              <div class="wrapper-1">
+                <input type="checkbox" name="html_news" id="html_news" value="html_news">
+                <label for="html_news" class="label">HTML News</label>
+              </div>
+              <div class="wrapper-1">
+                <input type="checkbox" name="css_news" id="css_news" value="css_news">
+                <label for="css_news" class="label">CSS News</label>
+              </div>
+              <div class="wrapper-1">
+                <input type="checkbox" name="javascript" id="javascript" value="javascript">
+                <label for="javascript" class="label">Javascript News</label>
+              </div>
+              <p class="newsletter-format">Newletter format</p>
+              <div class="wrapper-1">
+                <input type="radio" name="newsletter_format" id="html" value="html">
+                <label for="html">HTML</label>
+              </div>
+              <div class="wrapper-1">
+                <input type="radio" name="newsletter_format" id="plain_text" value="plain_text">
+                <label for="plain_text">Plain Text</label>  
+              </div>
+              <div class="wrapper-2">
+                <label for="other_topics" class="textarea-label">Other topics you'd like to hear about</label>
+                <textarea name="other_topics" id="other_topics"></textarea>
+              </div>
+              <input type="submit" name="Sign-up" id="sign_up" value="Sign Up">
+          </fieldset>
+        </form>
+     </div>
+  <footer>
+    <p class="copyright"><em>copyright</em> The Code Review </p>
+  </footer>       
+</body>
+</html>
