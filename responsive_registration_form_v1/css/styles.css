@@ -1,7 +1,11 @@
 * {
 box-sizing: border-box;
 padding: 0px;
-margin: 0px;    
+margin: 0px; 
+}
+html{
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
 }
 header {
 background-color: rgb(32, 56, 78);
@@ -50,6 +54,9 @@ border: none;
 border-radius: .2rem;
 margin: 10px 0px;
 }
+.text-box:focus{
+border-color: blue;
+}
 .zip-textbox {
 text-decoration: none;
 background-color: rgb(226, 225, 225);
@@ -58,6 +65,9 @@ min-width: 50%;
 border: none;
 border-radius: .2rem;
 margin: 10px 0px;
+}
+.zip-textbox:focus{
+border-color: blue;
 }
 .wrapper-1{
 display: flex;
