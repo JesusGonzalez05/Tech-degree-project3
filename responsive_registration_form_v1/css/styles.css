@@ -61,7 +61,7 @@ border-color: blue;
 text-decoration: none;
 background-color: rgb(226, 225, 225);
 min-height: 30px;
-min-width: 50%;
+width: 50%;
 border: none;
 border-radius: .2rem;
 margin: 10px 0px;
@@ -120,7 +120,7 @@ text-align: center;}
 media queries
 ============*/
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 768px) {
 
 .desktop-view{
 display: flex;
@@ -149,16 +149,19 @@ border-radius: .2rem;
 margin: 0px 5px;
 }
 .box1{
-margin-left: 15px;    
+margin-left: 21px;    
 }
 .box2{
-margin-left: 10px; 
+margin-left: 12px; 
 }
 .box3{
-margin-left: 75px; 
+margin-left: 92px; 
+}
+.box4{
+margin-left: 87px; 
 }
 .zip-textbox{
-margin-left: 50px;
+margin-left: 60px;
 
 }
 .wrapper3{
