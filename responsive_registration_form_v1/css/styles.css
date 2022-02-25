@@ -55,7 +55,8 @@ border-radius: .2rem;
 margin: 10px 0px;
 }
 .text-box:focus{
-border-color: blue;
+outline: solid, 5px;
+outline-color: blue;
 }
 .zip-textbox {
 text-decoration: none;
@@ -162,7 +163,7 @@ margin-left: 87px;
 }
 .zip-textbox{
 margin-left: 60px;
-
+width: 25%;
 }
 .wrapper3{
 display: flex;
